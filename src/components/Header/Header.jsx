@@ -40,10 +40,7 @@ const Header = (props) => {
             <li><a href="#work">Experience</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#people">Testimonials</a></li>
-            <li className={`flexCenter ${css.phone}`}>
-              <p>+001 (313) 345 678</p>
-              <BiPhoneCall size={"40px"} />
-            </li>
+            <li><a href="#exploremore">Projects</a></li>
           </ul>
 
 
@@ -63,7 +60,7 @@ const Header = (props) => {
         </div>
 
         {/* Light and Dark Theme Toggle */}
-        <div className="themeToggle" style={{ marginLeft: "10px" }}>
+        <div className="themeToggle" style={{ marginLeft: "15px", border: props.theme==="light" ? "4px solid #000" : "4px solid #fff", borderRadius: "50%" ,display:"flex", justifyContent:"center", alignItems:"center"}}>
           <BiBrightness className="day" size={30} style={{ marginRight: '3px', color: props.theme === 'light' ? "#000" : "#fff", cursor: "pointer", display: "none" }} onClick={props.toggleTheme} />
           <BiMoon className="night" size={30} style={{ marginRight: '3px', color: props.theme === 'light' ? "#000" : "#fff", cursor: "pointer" }} onClick={props.toggleTheme} />
         </div>

@@ -53,68 +53,62 @@ export const workExp = [
 
 export const comments = [
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Olivia Eddison",
+    post: "Amazon SkinCare.",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Working with this Hammad was an absolute pleasure. He is professional, responsive, and have a great eye for design. I highly recommend him for any web development project.",
+    img: "./1.jpg",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "John Thomas",
+    post: "Admin Panel",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Working with you was knowledgeable, efficient, and delivered results beyond my expectations. I was thoroughly impressed with the level of expertise they brought to the table",
+    img: "./2.jpg",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "William Joseph",
+    post: "Game Warrior",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "The website that was created for me is stunning, user-friendly, and exactly what I was looking for. He was a fantastic communicator, ensuring that my vision was brought to life.",
+    img: "./3.jpg",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Ethan Michael",
+    post: "Chocpie.",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "I was in need of a new website for my business and this web developer delivered exactly what I was looking for. He is highly skilled, organized, and a joy to work with.",
+    img: "./4.jpg",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Benjamin David",
+    post: "Mapchat",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "I was impressed with the speed and quality of work delivered by this web developer. He was able to bring my ideas to life and create an app that exceeded my expectations.",
+    img: "./5.jpg",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Charles Edward",
+    post: "techMate.",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Working with him was an outstanding experience from start to finish. He was able to take my vision and turn it into a beautiful, functional website that I am proud to share with the world.",
+    img: "./6.jpg",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "UBInn. 365",
+    post: "UBInn 365 Apparel",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "This web developer listened to my needs and was able to turn my vision into a reality. The end result was a stunning website that was not only visually appealing but also highly functional.",
+    img: "./7.jpg",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Muhammad Ahmed",
+    post: "Gym Flex",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "The web developer I worked with was professional, efficient, and provided exceptional support throughout the entire process. I highly recommend him for anyone",
+    img: "./8.jpg",
   },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
+
 ];
 
 export const sliderSettings = {

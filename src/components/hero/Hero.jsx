@@ -29,7 +29,7 @@ const Hero = (props) => {
           variants={fadeIn("up", "tween", 0.3, 1)}
           className={css.person}
         >
-          <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="./person.png" alt="" />
+          <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="./main2.png" alt="" />
         </motion.div>
 
         <a className={css.email} href="mailto:professorcoding123@gmail.com">
@@ -38,7 +38,7 @@ const Hero = (props) => {
 
         <div className={css.lowerElements}>
           <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className={css.experience}>
-            <div className="primaryText">02</div>
+            <div className="primaryText">03</div>
             <div className="secondaryText">
               <div>Years</div>
               <div>Experience</div>
