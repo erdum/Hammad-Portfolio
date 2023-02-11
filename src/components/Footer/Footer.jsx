@@ -5,6 +5,9 @@ import { footerVariants, staggerChildren } from "../../utils/motion";
 import css from "./Footer.module.scss";
 import {motion} from 'framer-motion'
 import { color } from "@mui/system";
+import { BsFillSuitHeartFill } from "react-icons/bs";
+
+
 const Footer = (props) => {
   return (
     <motion.section
@@ -25,7 +28,7 @@ const Footer = (props) => {
             amazing together.
           </span>
           <span className="primaryText">
-            Start by <a href="mailto:zainkeepscode@gmail.com">saying hi</a>
+            Start by <a href="mailto:professorcoding123@gmail.com">saying hi</a>
           </span>
         </div>
 
@@ -40,7 +43,11 @@ const Footer = (props) => {
                 <button type="submit" className="send-btn" style={{background: "orange", color: props.theme==="light" ? "#fff" : "#000"}}>Send Message</button>
             </div>
         </div>
+        
       </motion.div>
+      <div className={`flexCenter ${css.final}`} >
+          Developed with  <BsFillSuitHeartFill style={{margin:"0 8px", color:"red"}}/>  by studioHammad.
+        </div>
     </motion.section>
   );
 };

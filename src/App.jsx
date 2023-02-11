@@ -21,7 +21,9 @@ const App = () => {
       document.querySelector(".night").style.display = "initial";
       document.querySelector(".day").style.display = "none";
       document.querySelector("#menu").style.background = "#fff";
-      document.querySelector("#menu").style.boxShadow = "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px";
+      if(window.innerWidth <= 768){
+        document.querySelector("#menu").style.boxShadow = "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px";
+      }
 
     } else {
       console.log("dark thi bhai")
@@ -31,7 +33,9 @@ const App = () => {
       document.querySelector(".day").style.display = "initial";
       document.querySelector(".night").style.display = "none";
       document.querySelector("#menu").style.background = "#000";
-      document.querySelector("#menu").style.boxShadow = "rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px";
+      if(window.innerWidth <= 768){
+        document.querySelector("#menu").style.boxShadow = "rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px";
+      }
 
 
     }

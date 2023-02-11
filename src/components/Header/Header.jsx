@@ -61,9 +61,9 @@ const Header = (props) => {
         </div>
 
         {/* Light and Dark Theme Toggle */}
-        <div className="themeToggle" style={{ marginLeft: "15px", border: props.theme==="light" ? "4px solid #000" : "4px solid #fff", borderRadius: "50%" ,display:"flex", justifyContent:"center", alignItems:"center"}}>
-          <BiBrightness className="day" size={30} style={{ marginRight: '3px', color: props.theme === 'light' ? "#000" : "#fff", cursor: "pointer", display: "none" }} onClick={props.toggleTheme} />
-          <BiMoon className="night" size={30} style={{ marginRight: '3px', color: props.theme === 'light' ? "#000" : "#fff", cursor: "pointer" }} onClick={props.toggleTheme} />
+        <div className={`flexCenter ${css.themeToggle}`} style={{ marginLeft: "15px",padding:"2px" ,border: props.theme==="light" ? "4px solid #000" : "4px solid #fff", borderRadius: "50%"}}>
+          <BiBrightness className="day" size={26} style={{ color: props.theme === 'light' ? "#000" : "#fff", cursor: "pointer", display: "none"}} onClick={props.toggleTheme} />
+          <BiMoon className="night" size={26} style={{color: props.theme === 'light' ? "#000" : "#fff", cursor: "pointer" }} onClick={props.toggleTheme} />
         </div>
 
 
