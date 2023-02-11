@@ -1,7 +1,12 @@
 import Header from "./components/Header/Header";
 import css from "./styles/app.module.scss"
 import Hero from "./components/hero/Hero"
+import Experties from "./components/Experties/Experties";
+import Work from "./components/Work/Work";
 import React , { useState } from "react";
+import Portfolio from "./components/Portfolio/Portfolio";
+import People from "./components/People/People";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   const [theme, setTheme] = useState("light");
@@ -30,6 +35,11 @@ const App = () => {
     <div className={`${css.container}`}>
       <Header theme={theme} toggleTheme={toggleTheme}/>
       <Hero theme={theme}/>
+      <Experties theme={theme}/>
+      <Work theme={theme} />
+      <Portfolio theme={theme} />
+      <People theme={theme} />
+      <Footer theme={theme} />
     </div>
   )
 };

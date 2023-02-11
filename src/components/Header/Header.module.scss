@@ -37,7 +37,8 @@
                 top: 3rem;
                 width: 50%;
                 min-width: 15rem;
-                background: rgba(56, 56, 56, 0.664);
+                // background: rgba(56, 56, 56, 0.762);
+                // background: radial-gradient(rgb(58, 58, 58), black);
                 padding: 2rem;
                 display: flex;
                 border-radius: 2rem;
@@ -78,12 +79,20 @@
                 }
             }
         }
+        .toggleTheme{
+            @media(max-width:$sm), (max-width:$md) {
+                margin-right: 5px;
+            }
+        }
 
 
         .menuIcon{
             display: none;
             @media (max-width:$sm), (max-width:$md) {
                 margin-left: auto;
+                display: flex;
+            }
+            .toggleTheme{
                 display: initial;
             }
         }

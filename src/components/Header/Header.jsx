@@ -25,36 +25,30 @@ const Header = (props) => {
       whileInView="show"
       className={`paddings ${css.wrapper}`}
       viewport={{ once: true, amount: 0.25 }}
-      style={{ boxShadow: headerShadow }}
+      style={{ boxShadow: headerShadow, background: props.theme==='light' ? "#fff" : "#000" }}
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
         <div className={css.name}>Hammad.</div>
 
-        <div className="links">
-
-        <ul
-          className={`flexCenter ${css.menu}`}
-          ref={menuRef}
-          style={getMenuStyles(menuOpened)}
-        >
-          <li><a href="#experties">Services</a></li>
-          <li><a href="#work">Experience</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#people">Testimonials</a></li>
-          <li className={`flexCenter ${css.phone}`}>
-            <p>+001 (313) 345 678</p>
-            <BiPhoneCall size={"40px"} />
-          </li>
-        </ul>
-
-        </div>
+          <ul
+            className={`flexCenter ${css.menu}`}
+            ref={menuRef}
+            style={getMenuStyles(menuOpened)}
+            background={(props.theme==="light") ? "#fff" : "#000"}
+          >
+            <li><a href="#experties">Services</a></li>
+            <li><a href="#work">Experience</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#people">Testimonials</a></li>
+            <li className={`flexCenter ${css.phone}`}>
+              <p>+001 (313) 345 678</p>
+              <BiPhoneCall size={"40px"} />
+            </li>
+          </ul>
 
 
-        {/* Light and Dark Theme Toggle */}
-        <div className="themeToggle" style={{marginLeft:"10px"}}>
-            <BiBrightness className="day" size={30} style={{marginRight:'3px', color: props.theme==='light'?"#000":"#fff", cursor:"pointer" , display:"none"}} onClick={props.toggleTheme}/>
-            <BiMoon className="night" size={30} style={{marginRight:'3px', color: props.theme==='light'?"#000":"#fff" , cursor:"pointer"}} onClick={props.toggleTheme}/>
-          </div>
+
+
 
 
 
@@ -62,9 +56,17 @@ const Header = (props) => {
         <div
           className={css.menuIcon}
           onClick={() => setMenuOpened((prev) => !prev)}
-          >
+        >
           <BiMenuAltRight size={30} />
-          </div>
+
+
+        </div>
+
+        {/* Light and Dark Theme Toggle */}
+        <div className="themeToggle" style={{ marginLeft: "10px" }}>
+          <BiBrightness className="day" size={30} style={{ marginRight: '3px', color: props.theme === 'light' ? "#000" : "#fff", cursor: "pointer", display: "none" }} onClick={props.toggleTheme} />
+          <BiMoon className="night" size={30} style={{ marginRight: '3px', color: props.theme === 'light' ? "#000" : "#fff", cursor: "pointer" }} onClick={props.toggleTheme} />
+        </div>
 
 
 
