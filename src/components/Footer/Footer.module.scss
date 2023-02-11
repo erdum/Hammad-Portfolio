@@ -1,0 +1,78 @@
+@import '../../styles/contants.scss';
+
+.wrapper{
+    background: white;
+    .container{
+        gap: 2rem;
+        @media (max-width: $sm) {
+            flex-direction: column;
+            gap: 2rem;
+            align-items: flex-start;
+        }
+        .left{
+            flex: 3;
+            >*{
+                display: block;
+            }
+            >:nth-child(2)
+            {
+                margin-top: 3rem;
+
+                a{
+                    text-decoration: underline;
+                    color: orange;
+                }
+            }
+        }
+
+
+        .right{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            input{
+                justify-self: center;
+                width: 100%;
+                background:transparent;
+                border: none;
+                border-bottom: 3px solid orange;
+                outline: none;
+                color: orange;
+                padding: 5px;
+                font-size: 16px;
+                height: 3rem;
+                margin-bottom: 10px;
+                &::placeholder{
+                    color: orange;
+                }
+            }
+            textarea{
+                height: 6rem;
+                width: 100%;
+                font-size: 16px;
+                background: transparent;
+                padding: 5px;
+                border: none;
+                outline: none;
+                color: orange;
+                border-bottom: 3px solid orange;
+                margin-bottom: 5px;
+                &::placeholder{
+                    color: orange;
+                }
+
+
+            }
+            button{
+                height: 3rem;
+                width: 100%;
+                // justify-self: center;
+                text-align: center;
+                border: none;
+                outline: none;
+                font-weight: 600;
+            }
+            
+        }
+    }
+}
