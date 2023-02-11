@@ -1,53 +1,53 @@
-import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { FaDev } from "react-icons/fa";
 import { CiMobile1 } from "react-icons/ci";
-import { MdWorkspacesOutline } from "react-icons/md";
+import { FaReact } from "react-icons/fa";
 export const projectExperience = [
   {
-    name: "Website Design",
-    projects: 76,
-    icon: HiOutlineDesktopComputer,
+    name: "Frontend Dev.",
+    projects: "06",
+    icon: FaDev,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
+    name: "Responsive Web App",
+    projects: "10",
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
-    projects: 47,
-    icon: MdWorkspacesOutline,
+    name: "React Dev.",
+    projects: "07",
+    icon: FaReact,
     bg: "#F26440",
   },
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "I will help you in developing a responsive web application with creative designs, proficiency in frontend dev. Besides that I can also design UI of Website's",
+  ,
 ];
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "IPlanet.",
+    tenure: "Aug 2018 - Sep 2020",
+    role: "HTML,CSS DEV.",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Developing the structure of Website's was the key role but as an intern I did multiple task to help-out Senior Developers in building Website's ",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "Pakistan Air Force",
+    tenure: "May 2022 - Dec 2022",
+    role: "IT Desk Support",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Solving complex problems related to Accounting through my proficiencies in Computer Science",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "Upwork/Fiverr.",
+    tenure: "Aug 2022 - Till Now",
+    role: "Frontend Dev.",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Using my creativity in UI Designs and skills of Web dev. together to build frontend's of Website for client's all over the World!",
   },
 ];
 
