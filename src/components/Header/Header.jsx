@@ -34,7 +34,8 @@ const Header = (props) => {
             className={`flexCenter ${css.menu}`}
             ref={menuRef}
             style={getMenuStyles(menuOpened)}
-            background={(props.theme==="light") ? "#fff" : "#000"}
+            id="menu"
+            
           >
             <li><a href="#experties">Services</a></li>
             <li><a href="#work">Experience</a></li>

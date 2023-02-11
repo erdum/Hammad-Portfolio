@@ -20,6 +20,8 @@ const App = () => {
       document.body.style.color = "#000";
       document.querySelector(".night").style.display = "initial";
       document.querySelector(".day").style.display = "none";
+      document.querySelector("#menu").style.background = "#fff";
+      document.querySelector("#menu").style.boxShadow = "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px";
 
     } else {
       console.log("dark thi bhai")
@@ -28,6 +30,9 @@ const App = () => {
       document.body.style.color = "#fff";
       document.querySelector(".day").style.display = "initial";
       document.querySelector(".night").style.display = "none";
+      document.querySelector("#menu").style.background = "#000";
+      document.querySelector("#menu").style.boxShadow = "rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px";
+
 
     }
   }
