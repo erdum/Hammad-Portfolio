@@ -22,11 +22,11 @@ const People = (props) => {
 
 
         <div className={`flexCenter ${css.heading}`}>
-          <span className="primaryText">People talk about us</span>
+          <span className="primaryText">What others talk about us</span>
           <p style={{ marginTop: "2rem" }}>
-            I got a job that was in accordance with the salary and field of work
+            I love creativity and getting these kind of responses
           </p>
-          <p>The process of submitting an appilication was quite cosy</p>
+          <p>is something that motivates me to do more...</p>
         </div>
 
 

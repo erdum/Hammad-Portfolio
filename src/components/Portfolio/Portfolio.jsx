@@ -27,12 +27,12 @@ const Portfolio = (props) => {
 
 
         <div className={`flexCenter ${css.showCase}`}>
-            <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./showCase1.png" alt="project" />
-            <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./showCase2.png" alt="project" />
-            <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./showCase3.png" alt="project" />
-            <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./showCase1.png" alt="project" />
-            <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./showCase2.png" alt="project" />
-            <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./showCase3.png" alt="project" />
+            <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./pr1.gif" alt="project" />
+            <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./pr3.png" alt="project" />
+            <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./pr2.gif" alt="project" />
+            <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./pt4.gif" alt="project" />
+            <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./pr5.png" alt="project" />
+            <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./pr6.gif" alt="project" />
         </div>
       </div>
     </motion.section>

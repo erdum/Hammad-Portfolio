@@ -75,4 +75,10 @@
             
         }
     }
+    .final{
+        width: 100%;
+        @media(max-width:$sm) {
+            font-size: 14px;
+        }
+    }
 }

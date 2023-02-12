@@ -43,7 +43,7 @@ export const workExp = [
       "Solving complex problems related to Accounting through my proficiencies in Computer Science",
   },
   {
-    place: "Upwork/Fiverr.",
+    place: "Upwork",
     tenure: "Aug 2022 - Till Now",
     role: "Frontend Dev.",
     detail:

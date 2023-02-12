@@ -33,14 +33,15 @@ const Footer = (props) => {
         </div>
 
         <div className={css.right}>
-            <form action="https://formspree.io/f/xlekdqjw" method="POST"></form>
             <div className={`${css.input}`}>
+            <form action="https://formspree.io/f/xlekdqjw" method="POST">
                 <input type="text" placeholder="Full Name" required name="fullname" autoComplete="off" />
                 <input type="email" placeholder="Email" required name="email" autoComplete="off" />
                 <input type="text" placeholder="Subject" required name="subject" autoComplete="off" />
                 <textarea type="text" className="textarea" placeholder="Message" required name="message" autoComplete="off" />
                 <br />
                 <button type="submit" className="send-btn" style={{background: "orange", color: props.theme==="light" ? "#fff" : "#000"}}>Send Message</button>
+                </form>
             </div>
         </div>
         

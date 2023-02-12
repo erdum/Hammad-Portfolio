@@ -69,8 +69,9 @@
             margin:auto;
             background-image: url('../splash.png');
             background-repeat: no-repeat;
-            background-size: 23rem;
-            left: 33%;
+            background-position: center;
+            background-size: 30rem;
+            left: 30%;
             
             img{
                 @media (max-width: $sm) {
