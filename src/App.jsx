@@ -50,21 +50,22 @@ const App = () => {
   return (
     <Router>
       <Header theme={theme} toggleTheme={toggleTheme} />
-      <div className={`${css.container}`}>
         <Routes>
-          <Route path="/home">
-            <Hero theme={theme} />
-            <Experties theme={theme} />
-            <Work theme={theme} />
-            <Portfolio theme={theme} />
-            <People theme={theme} />
-            <Footer theme={theme} />
-          </Route>
-          <Route path="/exploremore">
-            <Explore />
-          </Route>
+          <Route
+            exact
+            path="/"
+            element={
+              <>
+                <Experties theme={theme} />
+                <Work theme={theme} />
+                <Portfolio theme={theme} />
+                <People theme={theme} />
+                <Footer theme={theme} />
+              </>
+            }
+          />
+          <Route path="/exploremore" element={<Explore />} />
         </Routes>
-      </div>
     </Router>
   )
 };
