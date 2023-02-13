@@ -5,10 +5,11 @@ import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
+import { Link } from "react-router-dom";
 // import { style } from "@mui/system";
 
 const Header = (props) => {
-  const menuRef = useRef(null);
+  const menuRef = useRef();
   const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
 
@@ -37,11 +38,11 @@ const Header = (props) => {
             id="menu"
             
           >
-            <li><a href="#experties">Services</a></li>
-            <li><a href="#work">Experience</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#people">Testimonials</a></li>
-            <li><a href="#exploremore">Projects</a></li>
+            <li><Link to="/experties">Services</Link></li>
+            <li><Link href="/work">Experience</Link></li>
+            <li><Link href="/portfolio">Portfolio</Link></li>
+            <li><Link href="/people">Testimonials</Link></li>
+            <li><Link href="/exploremore">Projects</Link></li>
           </ul>
 
 

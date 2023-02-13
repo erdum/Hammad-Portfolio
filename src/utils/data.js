@@ -54,21 +54,21 @@ export const workExp = [
 export const comments = [
   {
     name: "Olivia Eddison",
-    post: "Amazon SkinCare.",
+    post: "Reinvent Skin Care.",
     comment:
       "Working with this Hammad was an absolute pleasure. He is professional, responsive, and have a great eye for design. I highly recommend him for any web development project.",
     img: "./1.jpg",
   },
   {
     name: "John Thomas",
-    post: "Admin Panel",
+    post: "Solarus Admin Panel",
     comment:
       "Working with you was knowledgeable, efficient, and delivered results beyond my expectations. I was thoroughly impressed with the level of expertise they brought to the table",
     img: "./2.jpg",
   },
   {
     name: "William Joseph",
-    post: "Game Warrior",
+    post: "Globe Kit",
     comment:
       "The website that was created for me is stunning, user-friendly, and exactly what I was looking for. He was a fantastic communicator, ensuring that my vision was brought to life.",
     img: "./3.jpg",
@@ -98,14 +98,14 @@ export const comments = [
     name: "UBInn. 365",
     post: "UBInn 365 Apparel",
     comment:
-      "This web developer listened to my needs and was able to turn my vision into a reality. The end result was a stunning website that was not only visually appealing but also highly functional.",
+      "This developer listened to my needs and was able to turn my vision into a reality. The end result was a stunning website that was not only visually appealing but also highly functional.",
     img: "./7.jpg",
   },
   {
     name: "Muhammad Ahmed",
-    post: "Gym Flex",
+    post: "Dominy",
     comment:
-      "The web developer I worked with was professional, efficient, and provided exceptional support throughout the entire process. I highly recommend him for anyone",
+      "Hammad was professional, efficient, and provided exceptional support throughout the entire process. I highly recommend him for anyone",
     img: "./8.jpg",
   },
 
