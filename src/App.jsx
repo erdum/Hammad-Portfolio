@@ -54,27 +54,17 @@ const App = () => {
         <Routes>
           <Route path="/home">
             <Hero theme={theme} />
-          </Route>
-          <Route path="/experties">
             <Experties theme={theme} />
-          </Route>
-          <Route path="/work">
             <Work theme={theme} />
-          </Route>
-          <Route path="/portfolio">
             <Portfolio theme={theme} />
-          </Route>
-          <Route path="/people">
             <People theme={theme} />
-          </Route>
-          <Route path="/footer">
             <Footer theme={theme} />
           </Route>
-          {/* <Route path="/exploremore">
+          <Route path="/exploremore">
             <Explore />
-          </Route> */}
+          </Route>
         </Routes>
-    </div >
+      </div>
     </Router>
   )
 };

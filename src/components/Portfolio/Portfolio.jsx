@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import css from "./Portfolio.module.scss";
 import { fadeIn, staggerChildren, textVariant, textVariant2 } from "../../utils/motion";
+import { Link } from "react-router-dom";
 const Portfolio = (props) => {
   return (
     <motion.section
@@ -22,7 +23,7 @@ const Portfolio = (props) => {
             <span className="primaryText">My Latest Works</span>
             <p style={{marginTop: "10px"}}>Perfect solution for digital experience</p>
           </div>
-          <span className="secondaryText"><a href="#exploremore">Explore More Works</a></span>
+          <span className="secondaryText"><Link to="#exploremore">Explore More Works</Link></span>
         </motion.div>
 
 

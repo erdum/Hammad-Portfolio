@@ -38,11 +38,11 @@ const Header = (props) => {
             id="menu"
             
           >
-            <li><Link to="/experties">Services</Link></li>
-            <li><Link href="/work">Experience</Link></li>
-            <li><Link href="/portfolio">Portfolio</Link></li>
-            <li><Link href="/people">Testimonials</Link></li>
-            <li><Link href="/exploremore">Projects</Link></li>
+            <li><a href="/experties">Services</a></li>
+            <li><a href="/work">Experience</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/people">Testimonials</a></li>
+            <li><Link to="/exploremore">Projects</Link></li>
           </ul>
 
 
